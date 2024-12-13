@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santutu</title>
+
+    <style>
+        body {
+            margin: 0;
+            background-color: #060b11;
+        }
+
+        .container {
+            background-image: url("resources/container.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            position: relative;
+            margin: auto;
+            width: 1196px;
+            height: 919px;
+        }
+
+
+        .logo_container {
+            position: absolute;
+            display: flex;
+            top: 47.5%;
+            left: 50%;;
+            transform: translate(-50%,-50%);
+            
+        }
+
+        .logo {
+            width: 90px;
+            height: 110px;
+            margin: 10px;
+            /* background-color: rgba(255, 0, 0, 0.243); */
+        }
+
+
+
+        .author {
+            position: fixed;
+            bottom: 0.2%;
+            right: 0.5%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="logo_container">
+            <a target="_blank" href="https://github.com/santutu" class="logo"></a>
+            <a target="_blank" href="https://www.artstation.com/san222" class="logo"></a>
+        </div>
+    </div>
+
+    <img class="author" src="resources/author.png">
+</body>
+
+</html>
